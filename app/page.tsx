@@ -106,7 +106,7 @@ export default function HomePage() {
         </Card>
       </div>
       {/* Fixed bottom action bar */}
-      <div className="w-xs max-w-full m-auto fixed bottom-0 left-0 right-0 p-4">
+      <div className="w-xs max-w-full m-auto fixed bottom-0 left-0 right-0 p-4 backdrop-blur-lg bg-#0000-100">
         <div className="max-w-full m-auto flex justify-center gap-4 z-10 ">
           <AddIncomeForm onAddIncome={addIncome} />
           <AddExpenseForm onAddExpense={addExpense} />
